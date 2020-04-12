@@ -1,0 +1,72 @@
+#root .position-absolute.full-width {
+      position: fixed;
+      top: 0;
+      z-index: 999;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: -webkit-gradient(linear, left top, right top, from(#FFFFFF), color-stop(calc((100vw - 1360px) / 2 + (1360px * .75) - 68px), #FFFFFF), color-stop(calc((100vw - 1360px) / 2 + (1360px * .75) - 68px), #303030));
+      background-image: linear-gradient(to right, #FFF, #FFF calc((100vw - 1360px) / 2 + (1360px * .75) - 68px), #303030 calc((100vw - 1360px) / 2 + (1360px * .75) - 68px));
+      background-size: 100% 100%;
+      background-position: 100%;
+}
+
+.scrolled .position-absolute.full-width::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #F8F8F8;
+      box-shadow: 0px 2px 5px 0px rgba(0,0,0, .2);
+}
+
+.title-bar__logo img {
+      filter: brightness(10);
+}
+
+.scrolled .title-bar__logo img {
+      filter: brightness(1);
+}
+
+.site-header {
+      position: relative;
+      z-index: 999;
+}
+
+.site-header .title-bar {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+}
+
+.title-bar__navigation .menu-main__list {
+      display: flex;
+      flex-flow: row wrap;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+}
+
+.title-bar__navigation .menu-main__list .menu-main__item {}
+
+.title-bar__navigation .menu-main__list .menu-main__item a {
+      font-family: Poppins;
+      font-size: 16px;
+      color: #FFFFFF;
+      letter-spacing: 1.42px;
+      text-decoration: none;
+      padding: 7px 18px 5px;
+}
+
+.title-bar__navigation::after {
+      content: '';
+      width: 100vw;
+      color: #FFFFFF;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: -webkit-gradient(linear, left top, right top, from(#FFFFFF), color-stop(50%, #FFFFFF), color-stop(50%, #303030));
+      background-image: linear-gradient(to right, #FFFFFF, #FFFFFF 50%, #303030 50%);
+      background-size: 200% 100%;
+      background-position: 100%;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>ion-logo-bitbucket</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-FULL" transform="translate(-1240.000000, -3641.000000)" fill-rule="nonzero">
+            <g id="ion-logo-bitbucket" transform="translate(1240.000000, 3640.000000)">
+                <g id="Icon" transform="translate(0.000000, 1.000000)" fill="#FFFFFF">
+                    <path d="M20.7594922,0.384882812 C20.723362,0.379247688 20.6869063,0.375946578 20.6503516,0.374934687 L1.35738281,0.374934687 C0.98828125,0.36984375 0.69265625,0.670625 0.6875,1.05175781 C0.685873434,1.09211498 0.68919238,1.13251954 0.697382812,1.17207031 L3.50324219,18.8429687 C3.53840122,19.0568858 3.64431278,19.2528222 3.80402344,19.3994141 C3.96240429,19.5444474 4.16934786,19.6250003 4.38410156,19.6250003 L17.8397656,19.6250003 C18.1730148,19.6253273 18.454933,19.3786947 18.4989062,19.0483594 L20.1695312,8.39597656 L13.9730078,8.39597656 L13.1798047,13.2084766 L8.81761719,13.2084766 L7.71203125,6.84910156 L20.4127344,6.84910156 L21.3047656,1.17722656 C21.3593359,0.80125 21.1165625,0.445039062 20.7594922,0.384882812 Z" id="Icon-Path"></path>
+                </g>
+                <rect id="ViewBox" x="0" y="0" width="22" height="22"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

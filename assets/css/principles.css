@@ -1,0 +1,22 @@
+.principle {
+      display: flex;
+      flex-flow: column;
+}
+
+.principle .principle__title h3 {
+      padding: 35px 20px 0;
+}
+
+.principle .principle__content {
+      padding: 35px 20px 20px;
+}
+
+.principle .principle__image {
+
+}
+
+.principle .principle__image img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}

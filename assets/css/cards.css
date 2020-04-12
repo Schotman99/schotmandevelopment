@@ -1,0 +1,48 @@
+.cards__container {
+      display: block;
+      width: 100%;
+}
+
+.cards__grid {
+      display: block;
+      width: 100%;
+}
+
+.cards__grid .cards__item {
+      position: relative;
+      float: left;
+      height: 0;
+      padding: 0;
+}
+
+.cards__grid .cards__item.cards__row-1 {
+      padding-bottom: 24%;
+}
+.cards__grid .cards__item.cards__row-2 {
+      padding-bottom: 49%;
+}
+
+.cards__grid .cards__item.column-1-4 {
+      margin: .5%;
+      width: 24%;
+}
+.cards__grid .cards__item.column-2-4 {
+      margin: .5%;
+      width: 49%;
+}
+.cards__grid .cards__item.column-3-4 {
+      margin: .5%;
+      width: 74%;
+}
+.cards__grid .cards__item.column-4-4 {
+      width: 100%;
+}
+
+.cards__grid .cards__item .card {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: block;
+}
